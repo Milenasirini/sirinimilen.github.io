@@ -1,0 +1,144 @@
+*{
+    border:0;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 575.98px) and (orientation:portrait){
+body{background: #6DA6FA;}
+}
+@media (min-width: 1199.98px){
+    body {background: #6DA6FA;}
+}
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait){
+    body {background: #6DA6FA}
+}
+.divclass img{
+    display: flex;
+    max-width: 100%;
+    height: 80px;
+    width: 100px; 
+    
+}
+
+
+.btn-group .button{
+     padding: 15px 32px;
+    border: 2px, solid, #ADEADC;    
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition-duration: 0.9s;
+    font-size: 16px;
+    font-weight: 700;
+ }
+ .btn-group .button:hover{
+        background-color: #7D889E;
+    }
+    header{
+        background-image: linear-gradient(to bottom right, #6DA6FA, #31d8d2aa);
+       
+    }
+
+.clima{
+   margin-left: 50em; 
+   margin-top: -12em;
+}
+@font-face{
+    font-family: fuente;
+    src: url(JMH\ Typewriter\ dry-Black.otf)
+}
+
+body{    
+   
+    background-image: linear-gradient(to bottom right, #95B7F0, #D0D6EF);
+        
+}
+.imgauto img{
+    width: 50em;
+    height: 50em;
+    margin-top: -43em;
+    margin-right: 3em;
+    
+    
+}
+.textodelbody{
+    margin: 10px;
+    font-size: 30px;
+    margin-left: 30em;
+
+}
+.MensajeBody{
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 135px;
+    font-size: 30px;
+
+}
+footer{
+    position: relative;
+    bottom: 0;    
+    left: 0;
+    background-color: #86AD99;
+    height: 150px;
+    width: 100%;  
+}
+.textofooter{
+    font-size: 30px;
+    text-align: left;
+}
+.facebook a{
+    position:absolute;
+    display: flex;
+    width: 30%;
+    height: 30%;    
+}
+.instagram a{
+    position: absolute;
+    display: flex;
+    width: 35%;
+    height: 35%;
+    margin-left: 50px;
+}
+.youtube a{
+    position: absolute;
+    display: flex;
+    width: 35%;
+    height: 35%;
+    margin-left: 200px;
+}
+
+/* Se modifica el mensaje porque está dentro del footer*/
+.MensajeFooter{
+    position: absolute;
+    left: 550px;
+    font-weight: 700;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Copy p{        
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    bottom: 0;
+    padding: 50px;
+}
+.portfolio a{
+    margin-left: 75em;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    position: absolute;
+    margin-top: -5em;
+}
+.tfooter{
+    text-align: right;
+    font-size: 30px;
+    margin-right: 3em;
+    margin-top: -5em;
+}
+
+
